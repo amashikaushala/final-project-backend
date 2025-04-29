@@ -1,0 +1,12 @@
+Spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/HR_management
+
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl_auto: update
+
+      server:
+        port:8080
